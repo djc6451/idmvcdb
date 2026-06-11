@@ -4,6 +4,12 @@ fetch("data.json")
 
     const grid = document.getElementById("grid");
 
+    
+    const amount = data.length;
+    document.getElementById("browseAmount").textContent = `Browse Over ${amount-1} Cars!`;
+
+
+
     data.forEach(car => {
 
       const card = document.createElement("div");
@@ -20,9 +26,12 @@ fetch("data.json")
       const title = document.createElement("p");
       title.innerText = car.title;
 
+      const plate = document.createElement("p")
+      plate.innerText = car.info.Plate;
+
       card.appendChild(link);
       card.appendChild(title);
-
+      card.appendChild(plate)
       grid.appendChild(card);
     });
   });

@@ -6,7 +6,7 @@ fetch("data.json")
 
     
     const amount = data.length;
-    document.getElementById("browseAmount").textContent = `Browse Over ${amount-1} Cars!`;
+    document.getElementById("browseAmount").textContent = `Browse Over ${amount} Cars!`;
 
 
 
@@ -20,6 +20,7 @@ fetch("data.json")
 
       const img = document.createElement("img");
       img.src = car.images[0];
+      img.loading = "lazy"
 
       link.appendChild(img);
 

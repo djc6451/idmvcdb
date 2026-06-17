@@ -2227,5 +2227,21 @@
       "Plate": "971 7UX",
       "Notes": "Do not know the model of the kit."
     }
+  },
+  {
+    "id": "136_porsche",
+    "title": "Porsche 911 Turbo",
+    "images": [
+      "images/136_porsche_0.jpg"
+    ],
+    "info": {
+      "Make": "Porsche",
+      "Model": "911 Turbo (996)",
+      "Year": "????",
+      "Color": "Yellow",
+      "Location": "Reston, Virginia",
+      "Plate": "P5U",
+      "Notes": "Credit D. C-M"
+    }
   }
 ]
